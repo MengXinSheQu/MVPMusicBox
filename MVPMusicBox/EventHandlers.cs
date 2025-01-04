@@ -112,8 +112,8 @@ namespace MVPMusicBox
                 {
                     MVPInfos.Add(new MVPList()
                     {
-                        UserId = "76561199208302036@steam",
-                        MusicName = "76561199208302036",
+                        UserId = "[UserId]",
+                        MusicName = "MyMusic",
                         BroadcastName = "[DEBUG]",
                     });
                     File.WriteAllText(JsonPath, JsonConvert.SerializeObject((object)MVPInfos));
