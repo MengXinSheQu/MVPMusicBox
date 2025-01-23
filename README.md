@@ -49,31 +49,31 @@
 
 # MVPMusicBox - MVP Music Box Plugin 🎵[English]
 
-##**Info:**
+## **Info:**
 
-This plugin has added MVP music box 🎵。
+This plugin has added MVP Music Box 🎵。
 
-When the total number of player kills (excluding suicide) reaches the first turn, the player MVP music box will be played.
+When the total number of player kills (excluding suicide) reaches the first . The player's MVP music box will be played.
 
 If the player does not have an MVP music box, only information will be displayed without playing or prompting.
 
-##**Usage:**
+## **Usage:**
 
 Extract 'dependencies exported.rar' to 'EXILED\plugins\diplomacies'
 
 Then place 'MVPMusicBox.dll' into 'EXILED\Plugins'
 
-##**Tutorial for Json:**
+## **Tutorial for Json:**
 
 When the plugin is loaded, it will generate a 'Music Box' folder in the EXILED directory 📂
 
-A 'Config. json' file will be generated in this folder 📄 And the 'Music Files' folder 📂
+A ```Config. json``` file will be generated in this folder 📄 And the 'Music Files' folder 📂
 
-`Config. json 'is used to store player music box configuration files 📄
+```Config.json``` is used to store player music box configuration files 📄
 
-`Put music files inside the music file 🎵
+Put music files inside the music file 🎵
 
-`Config. json` configuration example:
+```Config.json```configuration example:
 
 ```
 [
@@ -87,6 +87,6 @@ A 'Config. json' file will be generated in this folder 📄 And the 'Music Files
 During turn initiation and plugin loading, the plugin will perform a JSON read once
 
 
-##**Remember:**
+## **Remember:**
 
 The music Ogg 48000 Mono, < 10s.
