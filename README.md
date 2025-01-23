@@ -53,13 +53,13 @@
 
 This plugin has added MVP Music Box 🎵。
 
-When the total number of player kills (excluding suicide) reaches the first . The player's MVP music box will be played.
+When the total number of player kills (excluding suicide) reaches the first , The player's MVP music box will be played.
 
 If the player does not have an MVP music box, only information will be displayed without playing or prompting.
 
 ## **Usage:**
 
-Extract 'dependencies exported.rar' to 'EXILED\plugins\diplomacies'
+Extract 'dependencies.rar' to 'EXILED\Plugins\dependencies'
 
 Then place 'MVPMusicBox.dll' into 'EXILED\Plugins'
 
