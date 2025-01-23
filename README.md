@@ -1,4 +1,4 @@
-# MVPMusicBox - MVP音乐盒插件🎵
+# MVPMusicBox - MVP音乐盒插件🎵[中文]
 
 ## **介绍:**
 
@@ -9,7 +9,7 @@
 如果玩家没有MVP音乐盒,则仅显示信息而不会进行播放与提示。
 
 ## **使用:**
-e
+
 将`dependencies-exiled.rar`解压至`EXILED\Plugins\dependencies`内
 
 然后将`MVPMusicBox.dll`放至`EXILED\Plugins`内
@@ -45,3 +45,48 @@ e
 音乐应为单轨道 48000采样率的ogg音频
 
 时间应在10秒内
+
+
+# MVPMusicBox - MVP Music Box Plugin 🎵[English]
+
+##**Info:**
+
+This plugin has added MVP music box 🎵。
+
+When the total number of player kills (excluding suicide) reaches the first turn, the player MVP music box will be played.
+
+If the player does not have an MVP music box, only information will be displayed without playing or prompting.
+
+##**Usage:**
+
+Extract 'dependencies exported.rar' to 'EXILED\plugins\diplomacies'
+
+Then place 'MVPMusicBox.dll' into 'EXILED\Plugins'
+
+##**Tutorial for Json:**
+
+When the plugin is loaded, it will generate a 'Music Box' folder in the EXILED directory 📂
+
+A 'Config. json' file will be generated in this folder 📄 And the 'Music Files' folder 📂
+
+`Config. json 'is used to store player music box configuration files 📄
+
+`Put music files inside the music file 🎵
+
+`Config. json` configuration example:
+
+```
+[
+  {
+    "UserId": "765611xxxxxx@steam", // Steam64ID
+    "MusicName": "musica", //File Name (not need ".ogg")
+    "BroadcastName": "My Super Music"//Show name in RoundEnd
+  }
+]
+```
+During turn initiation and plugin loading, the plugin will perform a JSON read once
+
+
+##**Remember:**
+
+The music Ogg 48000 Mono, < 10s.
