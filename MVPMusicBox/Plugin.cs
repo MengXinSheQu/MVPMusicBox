@@ -11,10 +11,10 @@ namespace MVPMusicBox
         public override string Name { get; } = "MVPMusicBox";
         public override void OnEnabled()
         {
-            if (!File.Exists(APIPaths.音乐盒))
-                File.Create(APIPaths.音乐盒);
-            if (!File.Exists(APIPaths.音乐盒音乐文件))
-                File.Create(APIPaths.音乐盒音乐文件);
+            if (!Directory.Exists(APIPaths.音乐盒))
+                Directory.CreateDirectory(APIPaths.音乐盒);
+            if (!Directory.Exists(APIPaths.音乐盒音乐文件))
+                Directory.CreateDirectory(APIPaths.音乐盒音乐文件);
             Instance = this;
             MVPEvent.Instance.RegEvent();
         }
