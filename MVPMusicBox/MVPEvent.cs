@@ -42,9 +42,7 @@ namespace MVPMusicBox
         {
             if (ev.Player.IsNPC)
                 return;
-            if (Kills.ContainsKey(ev.Player))
-                Kills[ev.Player]++;
-            else
+            if (!Kills.ContainsKey(ev.Player))
                 Kills.Add(ev.Player, 0);
         }
         private void OnDying(DyingEventArgs ev)
